@@ -4,12 +4,12 @@
 }
 
 .nav {
-  width: 1200px;
+  width: 1600px;
   height: 142px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 30px;
 }
 .nav_link {
@@ -36,11 +36,6 @@
 .head {
   padding-top: 50px;
 }
-.head .conteiner {
-  margin: 0 auto;
-  width: 1200px;
-  padding-left: 200px;
-}
 .head_fon {
   left: 0;
   position: absolute;
@@ -57,7 +52,7 @@
   line-height: 1;
   text-align: left;
   color: #fff;
-  padding-top: 254px;
+  padding: 254px 0 0 200px;
 }
 .head_title-descr {
   width: 560px;
@@ -65,11 +60,12 @@
   font-size: 24px;
   text-align: left;
   color: #fff;
-  padding-top: 20px;
+  padding: 20px 0 0 200px;
 }
 
 main {
   margin-top: 250px;
+  width: 1600px;
 }
 
 .title {
@@ -116,7 +112,7 @@ section {
 
 .content {
   margin: 0 auto;
-  width: 1200px;
+  width: 1600px;
   padding-top: 60px;
   display: flex;
   justify-content: space-around;
@@ -124,6 +120,7 @@ section {
 .content_items {
   width: 280px;
   padding-right: 26px;
+  margin-bottom: 60px;
 }
 .content_items-descr {
   font-family: OpenSans;
@@ -140,4 +137,67 @@ section {
   font-weight: 600;
   text-align: left;
   color: #151618;
+}
+
+.block {
+  width: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
+}
+.block .title {
+  font-family: Cormorant;
+  font-size: 40px;
+  text-align: center;
+  color: #151618;
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1600px;
+}
+.blog_item {
+  max-width: 540px;
+  max-height: 180px;
+  display: flex;
+  padding-bottom: 40px;
+}
+.blog_item-wrapper {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog_item-wrapper .des {
+  font-family: Cormorant;
+  font-size: 24px;
+  text-align: left;
+  color: #151618;
+}
+.blog_item-wrapper .descr {
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+}
+.blog_item-wrapper .descrpt {
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+}
+.blog_btn {
+  margin-top: 60px;
+  width: 149px;
+  height: 51px;
+  border: solid 1px #151618;
+  background-color: #fff;
 }/*# sourceMappingURL=styles.css.map */
