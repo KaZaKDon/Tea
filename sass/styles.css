@@ -4,7 +4,7 @@
 }
 
 .nav {
-  width: 1600px;
+  min-width: 1900px;
   height: 142px;
   margin: 0 auto;
   display: flex;
@@ -39,7 +39,7 @@
 .head_fon {
   left: 0;
   position: absolute;
-  width: 1600px;
+  min-width: 100%;
   object-fit: cover;
 }
 .head_title {
@@ -65,7 +65,7 @@
 
 main {
   margin-top: 250px;
-  width: 1600px;
+  min-width: 1900px;
 }
 
 .title {
@@ -88,8 +88,8 @@ main {
 }
 .product_card {
   padding-top: 60px;
-  width: 1200px;
-  padding-left: 200px;
+  width: 80%;
+  padding-left: 120px;
   display: flex;
   justify-content: space-around;
 }
@@ -103,7 +103,8 @@ main {
 
 section {
   background-color: #f7f2ea;
-  width: 1600px;
+  min-width: 1900px;
+  margin: 0 auto;
 }
 
 .title {
@@ -111,15 +112,13 @@ section {
 }
 
 .content {
-  margin: 0 auto;
-  width: 1600px;
   padding-top: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .content_items {
   width: 280px;
-  padding-right: 26px;
+  padding-right: 60px;
   margin-bottom: 60px;
 }
 .content_items-descr {
@@ -140,7 +139,7 @@ section {
 }
 
 .block {
-  width: 1600px;
+  min-width: 1900px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -160,7 +159,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 1600px;
+  min-width: 1200px;
 }
 .blog_item {
   max-width: 540px;
@@ -200,4 +199,252 @@ section {
   height: 51px;
   border: solid 1px #151618;
   background-color: #fff;
+}
+
+.subscribe {
+  background-color: #f7f2ea;
+  min-width: 1900px;
+  min-height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.subscribe_item {
+  margin-top: 100px;
+  max-width: 580px;
+  max-height: 300px;
+}
+.subscribe_item .form {
+  padding-top: 15px;
+  display: flex;
+}
+.subscribe_item .form_in {
+  margin-top: -35px;
+}
+.subscribe_item .form_text {
+  padding-left: 10px;
+}
+.subscribe_item .form1 {
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe_item .form1-in {
+  font-family: OpenSans;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  color: #b8b58b;
+  border: none;
+  margin-bottom: 5px;
+  border-bottom: 5px solid #f7f2ea;
+  background: transparent;
+}
+.subscribe_item .form1-btn {
+  width: 116px;
+  height: 51px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #151618;
+  background-color: #fff;
+}
+.subscribe_item .form2_title {
+  margin-top: -100px;
+  font-family: Cormorant;
+  font-size: 40px;
+  text-align: left;
+  color: #151618;
+}
+.subscribe_item .form2_text {
+  padding-top: 50px;
+  ont-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #151618;
+}
+.subscribe_item hr {
+  width: 440px;
+}
+
+.prioritise {
+  min-width: 1900px;
+}
+.prioritise_title {
+  margin-top: 150px;
+  font-family: Cormorant;
+  font-size: 40px;
+  text-align: center;
+  color: #151618;
+  padding-bottom: 60px;
+}
+.prioritise_items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.prioritise_items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prioritise_items .item_title {
+  font-family: OpenSans;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #151618;
+  margin-bottom: 10px;
+}
+.prioritise_items .item_descr {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #151618;
+  margin-bottom: 40px;
+}
+.prioritise_items .item_img {
+  margin-bottom: 150px;
+}
+
+.footer {
+  min-width: 1900px;
+}
+.footer .conteiner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #f7f2ea;
+  padding-top: 100px;
+}
+.footer .conteiner_items {
+  width: 270px;
+}
+.footer .conteiner_items .item1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer .conteiner_items .item1_link {
+  text-decoration: none;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+  padding-bottom: 20px;
+}
+.footer .conteiner_items .item1_title {
+  padding-bottom: 50px;
+  font-family: Cormorant;
+  font-size: 24px;
+  text-align: left;
+  color: #151618;
+}
+.footer .conteiner_items .item1_text {
+  padding-top: 140px;
+}
+.footer .conteiner_items .card {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.footer .conteiner_items .item2_descr {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  color: #151618;
+  padding-top: 75px;
+}
+.footer .conteiner_items .item2_text {
+  padding-top: 20px;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+}
+.footer .conteiner_items .item2_title {
+  padding-bottom: 45px;
+  font-family: Cormorant;
+  font-size: 24px;
+  text-align: left;
+  color: #151618;
+}
+.footer .conteiner_items .item2_descr1 {
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+}
+.footer .conteiner_items .item2_compani {
+  display: flex;
+  flex-direction: column;
+}
+.footer .conteiner_items .item2_compani .compani1 {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .conteiner_items .item2_compani .compani1 .adres {
+  margin-top: 40px;
+  display: flex;
+}
+.footer .conteiner_items .item2_compani .compani1 .tel {
+  margin-top: 20px;
+  display: flex;
+}
+.footer .conteiner_items .item2_compani .compani1_img {
+  margin-top: 20px;
+}
+.footer .conteiner_items .item2_icon {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+}
+.footer .conteiner_items .item2_icon-link {
+  padding-right: 20px;
+}
+
+section .content_items:nth-child(4) {
+  display: none;
+}
+
+.subscribe {
+  flex-direction: column;
+  padding: 60px 0 60px 0;
+}
+.subscribe_title {
+  text-align: center;
+}
+.subscribe_item {
+  max-width: 1000px;
+}
+.subscribe_item .form2_title {
+  text-align: center;
+}
+.subscribe_item hr {
+  width: 600px;
+}
+.subscribe_item .form1 {
+  justify-content: start;
+}
+.subscribe_item .form1-btn {
+  margin-left: 300px;
+}
+
+.prioritise_items {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+.prioritise_items .item {
+  width: 35%;
+  height: 180px;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=styles.css.map */

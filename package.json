@@ -1,18 +1,14 @@
 {
-  "dependencies": {
-    "express": "^4.21.1",
-    "pg": "^8.13.0"
-  },
-  "devDependencies": {
-    "parcel": "^2.12.0"
-  },
-  "name": "tea",
+  "name": "websocket",
   "version": "1.0.0",
-  "description": "Macket",
+  "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "author": "Kazak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
 }
