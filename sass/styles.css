@@ -73,7 +73,7 @@ main .title {
   margin-bottom: 150px;
 }
 main .p_title {
-  ont-family: Cormorant;
+  font-family: Cormorant;
   font-size: 35px;
   text-align: center;
   color: #151618;
@@ -138,6 +138,201 @@ section .content_items-descr {
   margin-bottom: 10px;
 }
 section .content_items-autor {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #151618;
+}
+
+.block {
+  width: 80%;
+  min-height: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block .title {
+  margin-top: 100px;
+  font-family: Cormorant;
+  font-size: 40px;
+  text-align: center;
+  color: #151618;
+}
+.block .blog {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 58px;
+}
+.block .blog_item {
+  margin-top: 60px;
+  width: 45%;
+  display: flex;
+  gap: 20px;
+}
+.block .blog_item-img {
+  width: 50%;
+}
+.block .blog_item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block .blog_item-wrapper .des {
+  font-family: Cormorant;
+  font-size: 24px;
+  text-align: left;
+  color: #151618;
+}
+.block .blog_item-wrapper .descr {
+  margin-top: 10px;
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+  flex-grow: 1;
+}
+.block .blog_item-wrapper .descrpt {
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+}
+.block .blog_btn {
+  margin-top: 60px;
+  width: 149px;
+  height: 51px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #151618;
+  margin-bottom: 160px;
+  border: solid 1px #151618;
+}
+
+.subscribe {
+  min-height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 40px;
+  background: url("../img/tea 1.png") right/45% no-repeat;
+  background-color: #f7f2ea;
+}
+.subscribe_item {
+  width: 35%;
+}
+.subscribe_item .form2 {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.subscribe_item .form2_title {
+  font-family: Cormorant;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: left;
+  color: #151618;
+}
+.subscribe_item .form2_text {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  color: #151618;
+}
+.subscribe_item .form1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 100px;
+}
+.subscribe_item .form1-btn {
+  width: 116px;
+  height: 51px;
+  border: solid 1px #151618;
+  background-color: #fff;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #151618;
+}
+.subscribe_item .form1-in {
+  margin-left: 10px;
+  padding-top: 18px;
+  background-color: #f7f2ea;
+  border: 2px solid #f7f2ea;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  color: #b8b58b;
+}
+.subscribe_item .form {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+.subscribe_item .form_text {
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: #151618;
+}
+.subscribe_item hr {
+  width: 400px;
+  transform: rotate(-180deg);
+  background-color: #b8b58b;
+}
+
+.prioritise_title {
+  margin-top: 130px;
+  font-family: Cormorant;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #151618;
+  margin-bottom: 60px;
+}
+.prioritise_items {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.prioritise_items .item {
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.prioritise_items .item_title {
+  font-family: OpenSans;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #151618;
+}
+.prioritise_items .item_descr {
   font-family: OpenSans;
   font-size: 20px;
   font-weight: 600;
