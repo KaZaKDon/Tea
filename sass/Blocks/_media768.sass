@@ -1,0 +1,56 @@
+@media (max-width: 768px)
+    .nav
+        justify-content: space-around
+        width: 100%
+        &_link
+            display: none
+        &_gamburger
+            width: 30%
+            display: block
+            color: red
+            &-hrom
+                margin-left: 30px
+                background: #000
+                width: 40px
+                height: 2px
+                margin-bottom: 4px
+    .head
+        width: 100%
+        &_title
+            &-h
+                max-width: 100%
+                font-size: 50px
+            &-descr
+                max-width: 100%
+    main
+        .product
+            &_card
+                width: 80%
+                margin: 0 auto
+                display: flex
+                justify-content: space-around
+                flex-wrap: wrap
+                row-gap: 35px
+                margin-bottom: 150px
+                &-item
+                    width: calc( 90% / 3)
+                .descr
+                    margin-bottom: 0
+    section
+
+        .content
+            flex-wrap: wrap
+            padding-bottom: 82px
+            &_items
+                width: calc( 95% / 2)
+            .cl4
+                display: block
+    .block
+        .blog
+            flex-direction: column
+            &_item
+                width: 80%
+        .blog:nth-child(odd)
+            align-items: flex-start
+        .blog:nth-child(even)
+            align-items: flex-end
