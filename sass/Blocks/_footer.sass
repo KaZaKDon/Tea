@@ -3,85 +3,82 @@
     padding-left: 200px
     padding-right: 200px
     .conteiner1
-        min-height: 600px
+        width: 100%
+        min-height: 768px
         display: flex
         gap: 40px
         justify-content: space-between
-        .conteiner_items
-            width: calc( (100% - 250px) /4 )
-            margin: 0
+        .wd1
+            width: 40%
             display: flex
-            flex-direction: column
             justify-content: space-between
-            .item1
+            .conteiner_items
                 display: flex
                 flex-direction: column
-                justify-content: space-around
-                &_title
-                    margin-top: 100px
-                    font-family: Cormorant
-                    font-size: 24px
-                    text-align: left
-                    color: #151618
-                    padding-bottom: 50px
-                &_link
-                    font-family: OpenSans
-                    font-size: 16px
-                    font-weight: 300
-                    text-align: left
-                    color: #151618
-                    padding-bottom: 20px
-                    text-decoration: none
-            .item2
-                margin-top: 100px
-                &_descr
-                    padding-top: 79px
-                    font-family: OpenSans
-                    font-size: 16px
-                    font-weight: 300
-                    font-style: italic
-                    text-align: left
-                    color: #151618
-                &_text
-                    margin-top: 20px
-                    font-family: OpenSans
-                    font-size: 12px
-                    font-weight: 300
-                    text-align: left
-                    color: #151618
-                &_title
-                    margin: 0
-                    font-family: Cormorant
-                    font-size: 24px
-                    text-align: left
-                    color: #151618
-                    padding-bottom: 50px
-                &_descr1
-                    font-family: OpenSans
-                    font-size: 13px
-                    font-weight: 300
-                    text-align: left
-                    color: #151618
-                    padding-bottom: 41px
-                &_compani
-                    .compani1
-                        display: flex
-                        flex-direction: row
-                        gap: 40px
-                        &_adres
-                            display: block
-                            .adres, .tel
-                                display: flex
-                                gap: 15px
-                                font-family: OpenSans
-                                font-size: 13px
-                                font-weight: 300
-                                text-align: left
-                                color: #151618
-                                padding-top: 20px
-                &_icon
-                    margin-top: 40px
+                justify-content: space-between
+                .item1
                     display: flex
-                    justify-content: center
-                    gap: 20px
-                    align-items: center
+                    flex-direction: column
+                    justify-content: space-between
+                    align-items: flex-start
+                    gap: 10px
+                    &_title
+                        margin-top: 100px
+                        font-family: Cormorant
+                        font-size: 24px
+                        text-align: left
+                        color: #151618
+                        padding-bottom: 50px
+                    &_link
+                        font-family: OpenSans
+                        font-size: 16px
+                        font-weight: 300
+                        text-align: left
+                        color: #151618
+                        padding-bottom: 20px
+                        text-decoration: none
+        .wd2
+            width: 60%
+            display: flex
+            gap: 20px
+            justify-content: space-between
+            margin-top: 100px
+            .conteiner_items
+                .item2
+                    &_descr
+                        padding-top: 79px
+                        font-family: OpenSans
+                        font-size: 16px
+                        font-weight: 300
+                        font-style: italic
+                        text-align: left
+                        color: #151618
+                    &_text
+                        margin-top: 20px
+                        font-family: OpenSans
+                        font-size: 12px
+                        font-weight: 300
+                        text-align: left
+                        color: #151618
+                    
+                    &_title
+                        margin: 0
+                        font-family: Cormorant
+                        font-size: 24px
+                        text-align: left
+                        color: #151618
+                        padding-bottom: 50px
+                    .addr
+                        .item2_compani
+                            .compani1
+                                margin-top: 20px
+                                display: flex
+                                justify-content: space-between
+                                &_adres
+                                    padding-right: 30px
+                        .item2_icon
+                            text-align: right
+                            margin-top: 50px
+                            padding-right: 30px
+                            &-link
+                                padding-left: 20px

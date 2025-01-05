@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./fonts/stylesheet.css" />
     <link rel="stylesheet" href="./fonts/stylesheet1.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
     <title>TEA</title>
   </head>
   <body>
+    <div class="nav-gamb active">
+      <div class="active-close">
+        &times;
+      </div>
+      <div class="active-gamb">
+        <div class="active-gamb_link">
+          <a class="active-gamb_link-item" href="#">Black</a>
+          <a class="active-gamb_link-item" href="#">Grin</a>
+          <a class="active-gamb_link-item" href="#">White</a>
+          <a class="active-gamb_link-item" href="#">Oolong</a>
+          <a class="active-gamb_link-item" href="#">Pu-erh</a>
+        </div>
+        <hr>
+        <div class="active-gamb_akk">
+          <a class="active-gamb_akk-item" href="#">Contact Us</a>
+          <a class="active-gamb_akk-item" href="#">Our Blog</a>
+          <a class="active-gamb_akk-item" href="#">Shipping and Delivery</a>
+        </div>
+        <div class="active-gamb_img">
+          <div class="nav_img">
+            <img class="nav_img-icon" src="./icon/icon chem.svg" alt="chem" />
+            <img class="nav_img-icon" src="./icon/iconchel.png" alt="chel" />
+          </div>
+          <img
+            class="nav_lup"
+            src="./icon/iconlup.svg"
+            alt="lup"
+            width="22px"
+            height="22px"
+          />
+        </div>
+      </div>
+    </div>
     <nav class="nav">
-      <div class="nav_gamburger">
+      <div class="nav_gamburger" id="gamb">
         <div class="nav_gamburger-hrom"></div>
         <div class="nav_gamburger-hrom"></div>
         <div class="nav_gamburger-hrom"></div>
@@ -131,7 +164,7 @@
             <p class="descrpt">Read ></p>
           </div>
         </div>
-        <div class="blog_item">
+        <div class="blog_item chet">
           <img src="./img/man.png" alt="man" class="blog_item-img" />
           <div class="blog_item-wrapper">
             <p class="des">The Role of Tea in Mental Health</p>
@@ -149,7 +182,7 @@
             <p class="descrpt">Read ></p>
           </div>
         </div>
-        <div class="blog_item">
+        <div class="blog_item chet">
           <img src="./img/Chashka.png" alt="Chashka" class="blog_item-img" />
           <div class="blog_item-wrapper">
             <p class="des">
@@ -226,98 +259,107 @@
     </div>
     <footer class="footer">
       <section class="conteiner1">
-        <div class="conteiner_items wd1">
-          <div class="item1">
-            <h3 class="item1_title">Products</h3>
-            <a href="" class="item1_link">Black tea</a>
-            <a href="" class="item1_link">Green tea</a>
-            <a href="" class="item1_link">White tea</a>
-            <a href="" class="item1_link">Oolong tea</a>
-            <a href="" class="item1_link">Pu-erh tea</a>
-          </div>
-          <div class="item1_text">© Tealuxe, 2023</div>
-        </div>
-        <div class="conteiner_items wd1">
-          <div class="item1">
-            <h3 class="item1_title">Company</h3>
-            <a href="" class="item1_link">About Us</a>
-            <a href="" class="item1_link">Contact Us</a>
-            <a href="" class="item1_link">Our Blog</a>
-            <a href="" class="item1_link">FAQ</a>
-            <a href="" class="item1_link">Shipping & Delivery</a>
-            <a href="" class="item1_link">Refund policy</a>
-            <a href="" class="item1_link">Terms of Service</a>
-          </div>
-          <div class="card">
-            <img class="img1" src="./icon/logos_mastercard.png" alt="master" />
-            <img class="img2" src="./icon/Vectorvisa.png" alt="visa" />
-            <img
-              class="img2"
-              src="./icon/logos_google-pay.png"
-              alt="google-pay"
-            />
-            <img class="img2" src="./icon/logos_paypal.png" alt="paypal" />
-          </div>
-        </div>
-        <div class="conteiner_items wd2">
-          <div class="item2">
-            <div class="item2_descr">
-              “Tea is a journey. It can take you to new places and open your
-              mind to new experiences. Let every sip transport you to a world of
-              wonder and possibility”
+        <div class="wd1">
+          <div class="conteiner_items">
+            <div class="item1">
+              <h3 class="item1_title">Products</h3>
+              <a href="" class="item1_link">Black tea</a>
+              <a href="" class="item1_link">Green tea</a>
+              <a href="" class="item1_link">White tea</a>
+              <a href="" class="item1_link">Oolong tea</a>
+              <a href="" class="item1_link">Pu-erh tea</a>
             </div>
-            <div class="item2_text">
-              Dragomir Teodorescu, <br />
-              Tealuxe owner
+            <div class="item1_text">© Tealuxe, 2023</div>
+          </div>
+          <div class="conteiner_items">
+            <div class="item1">
+              <h3 class="item1_title">Company</h3>
+              <a href="" class="item1_link">About Us</a>
+              <a href="" class="item1_link">Contact Us</a>
+              <a href="" class="item1_link">Our Blog</a>
+              <a href="" class="item1_link">FAQ</a>
+              <a href="" class="item1_link">Shipping & Delivery</a>
+              <a href="" class="item1_link">Refund policy</a>
+              <a href="" class="item1_link">Terms of Service</a>
+            </div>
+            <div class="card">
+              <img class="img1" src="./icon/logos_mastercard.png" alt="master" />
+              <img class="img2" src="./icon/Vectorvisa.png" alt="visa" />
+              <img
+                class="img2"
+                src="./icon/logos_google-pay.png"
+                alt="google-pay"
+              />
+              <img class="img2" src="./icon/logos_paypal.png" alt="paypal" />
             </div>
           </div>
         </div>
-        <div class="conteiner_items wd2">
-          <div class="item2">
-            <h3 class="item2_title">Stay In Touch</h3>
-            <div class="item2_descr1">
-              Please feel free to contact us via the email of phone. We would be
-              happy to hear from you!
+        <div class="wd2">
+          <div class="conteiner_items">
+            <div class="item2">
+              <div class="item2_descr">
+                “Tea is a journey. It can take you to new places and open your
+                mind to new experiences. Let every sip transport you to a world of
+                wonder and possibility”
+              </div>
+              <div class="item2_text">
+                Dragomir Teodorescu, <br />
+                Tealuxe owner
+              </div>
             </div>
-            <div class="item2_compani">
-              <div class="compani1">
-                <img
-                  src="./img/Group 4.svg"
-                  alt="logo"
-                  class="compani1_img"
-                  width="57px"
-                  ,
-                  height="91px"
-                />
-                <div class="compani1_adres">
-                  <div class="adres">
-                    <img src="./icon/iconkonv.png" alt="konv" />
-                    <div>info@tealuxe.com</div>
+          </div>
+          <div class="conteiner_items">
+            <div class="item2">
+              <h3 class="item2_title">Stay In Touch</h3>
+              <div class="item2_descr1">
+                Please feel free to contact us via the email of phone. We would be
+                happy to hear from you!
+              </div>
+              <div class="addr">
+                <div class="item2_compani">
+                  <div class="compani1">
+                    <img
+                      src="./img/Group 4.svg"
+                      alt="logo"
+                      class="compani1_img"
+                      width="57px"
+                      ,
+                      height="91px"
+                    />
+                    <div class="compani1_adres">
+                      <div class="adres">
+                        <img src="./icon/iconkonv.png" alt="konv" />
+                        <div>info@tealuxe.com</div>
+                      </div>
+                      <div class="tel">
+                        <img src="./icon/icontrub.png" alt="konv" />
+                        <div>+370 680 123456</div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="tel">
-                    <img src="./icon/icontrub.png" alt="konv" />
-                    <div>+370 680 123456</div>
-                  </div>
+                </div>
+                <div class="item2_icon">
+                  <a href="" class="item2_icon-link"
+                    ><img src="./icon/iconfb.png" alt="fb"
+                  /></a>
+                  <a href="" class="item2_icon-link"
+                    ><img src="./icon/iconplay.png" alt="play"
+                  /></a>
+                  <a href="" class="item2_icon-link"
+                    ><img src="./icon/icontv.png" alt="tv"
+                  /></a>
+                  <a href="" class="item2_icon-link"
+                    ><img src="./icon/iconptich.png" alt="ptich"
+                  /></a>
                 </div>
               </div>
             </div>
-            <div class="item2_icon">
-              <a href="" class="item2_icon-link"
-                ><img src="./icon/iconfb.png" alt="fb"
-              /></a>
-              <a href="" class="item2_icon-link"
-                ><img src="./icon/iconplay.png" alt="play"
-              /></a>
-              <a href="" class="item2_icon-link"
-                ><img src="./icon/icontv.png" alt="tv"
-              /></a>
-              <a href="" class="item2_icon-link"
-                ><img src="./icon/iconptich.png" alt="ptich"
-              /></a>
-            </div>
           </div>
         </div>
+        
       </section>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
